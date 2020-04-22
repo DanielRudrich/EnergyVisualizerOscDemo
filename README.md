@@ -16,3 +16,7 @@ The data comprises:
 
 
 Have fun!
+
+### Dependencies
+- **oscP5**: Necessary, to receive OSC data. 
+To install: open Processing, Sketch -> Import Library... -> Add Library... install oscP5
