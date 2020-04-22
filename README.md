@@ -20,3 +20,6 @@ Have fun!
 ### Dependencies
 - **oscP5**: Necessary, to receive OSC data. 
 To install: open Processing, Sketch -> Import Library... -> Add Library... install oscP5
+
+### Issues
+Incoming OSC messages are received on a separate thread, not the one which draws the visualization. So from time to time artifacts appear, where one frame contains both old and new values. Have to add some lock mechanism to prevent this!
